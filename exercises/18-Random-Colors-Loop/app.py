@@ -17,8 +17,13 @@ def get_color(color_number=4):
 def get_allStudentColors():
 
     example_color = 1
-    students_array = []
+    students_array = [1,2,3,4,5,6,7,8,9,10]
+ 
     #your loop here
+    for i in range(len(students_array)):
+        aleatorio=random.randint(0,4)
+        print(get_color(aleatorio))         
+    return i
 
 
 
